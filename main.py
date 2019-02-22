@@ -22,8 +22,6 @@ print()
 
 #Y la raiz cuadrada del numero d
 
-#TO FIX
-
-#nd = int(input("Ingrese un numero d: "))
-#raiz = sqrt(nd)
-#print ("La raiz de d es: " + str(raiz))
+nd = int(input("Ingrese un numero d: "))
+raiz = math.sqrt(nd)
+print ("La raiz de d es: " + str(raiz))
