@@ -1,0 +1,27 @@
+	Cree un proyecto denominado LaboratorioVCS, algunas herramientas no crean proyectos, por lo que deberá crear una carpeta con el nombre LaboratorioVCS en donde guardará los archivos.
+	Cree un Repositorio en GitHub LaboratorioVCSRemoto
+	Inicialice un repositorio Git local en el proyecto creado
+	Cree un archivo llamado instrucciones.txt, en donde guarde cada uno de los numerales de esta lista
+	Cree un archivo de Python llamado main.py, en donde se almacenará el código del ejercicio a realizar.
+	Conecte el proyecto al repositorio remoto (recuerde que debe utilizar correctamente el comando git remote add origin )
+	Realice un algoritmo que permita calcular el producto entre un número entero a y  un número entero número entero c dado, también deberá calcular el doble del número a
+	Realice un commit del código con el mensaje “Mi primer commit” y súbalo al repositorio mediante el comando push
+	Modifique el código y agregue algunas sentencias que permita leer y calcular el cuadrado de un número entero b y también agregue alguna sentencia que permita calcular la raíz cuadrada de un número d
+	Realice un commit del código con el mensaje “Mi primera modificación” y envíelo al repositorio.
+	Modifique el código de manera tal que permita calcular la solución de una ecuación cuadrática de tipo    ax2 + bx + c     sabiendo que su fórmula de resolución es: 
+
+x=  (-b ± v(b^2-4ac ))/2a
+
+	En donde se sabe que el discriminante d=v(b^2-4ac ) y que si:
+
+			d > 0 entonces se tienen dos soluciones distantes tales que:
+x_1=  (-b + v(d ))/2a     y    x_2=  (-b- v(d ))/2a
+
+			d = 0 entonces se tienen que x1 y x2 son iguales y corresponden
+(-b)/2a
+
+			d < 0 entonces no existe solución en los números reales
+
+	Realice un commit del código con el mensaje “Solución” y envíelo al repositorio.
+
+	Realice pruebas del algoritmo y en cada modificación genere un nuevo commit indicando el motivo del cambio y envíelo al repositorio.
